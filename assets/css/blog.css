@@ -1,0 +1,30 @@
+#posts {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .post {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post h2 {
+    margin-top: 0;
+  }
+  
+  #toggle-mode, #back-button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #toggle-mode:hover, #back-button:hover {
+    background-color: #555;
+  }
