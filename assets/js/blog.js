@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function() { // This is a built-in
       postElement.innerHTML = ` 
         <h2>${post.title}</h2> 
         <p>${post.content}</p> 
-        <p><strong>Author:</strong> ${post.username}</p>
+        <p><strong>Author:</strong> ${post.username}</p> 
       `;
-      postsContainer.appendChild(postElement);
+      postsContainer.appendChild(postElement); 
     });
   
     document.getElementById('toggle-mode').addEventListener('click', function() {
