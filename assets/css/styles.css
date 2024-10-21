@@ -7,7 +7,7 @@ body {
   }
   
   body.dark-mode {
-    background-color:  darkblue; // 
+    background-color:  darkblue; 
     color: #fff;
   }
   
